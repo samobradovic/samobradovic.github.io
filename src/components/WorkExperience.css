@@ -1,0 +1,55 @@
+.work-experience {
+  margin: 2em 0;
+  padding: 0;
+  background: none;
+  color: var(--text);
+  max-width: var(--max-width);
+}
+
+.work-experience__title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 1.2em;
+}
+
+.work-experience__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-experience__item {
+  margin-bottom: 1.5rem;
+}
+
+.work-experience__company {
+  margin-bottom: 0.2em;
+}
+
+.work-experience__roles {
+  margin-bottom: 0.5em;
+}
+
+.work-experience__detail {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.work-experience__bullets {
+  margin: 0.5em 0 0 1em;
+  padding: 0;
+  list-style: disc;
+}
+
+.work-experience__bullet {
+  margin-bottom: 0.2em;
+}
+
+@media (max-width: 43.75rem) {
+  .work-experience {
+    margin: 1.2em 0;
+  }
+  .work-experience__title {
+    font-size: 1.2rem;
+  }
+}

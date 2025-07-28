@@ -1,0 +1,37 @@
+.education__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education__item {
+  margin-bottom: 1.2rem;
+}
+
+.education__degree {
+  margin-bottom: 0.2em;
+}
+
+.education__institution {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.education__link {
+  color: var(--contact-accent);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0.5em;
+  padding: 0.15em 0.5em;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s;
+  background: transparent;
+}
+
+.education__link:hover,
+.education__link:focus {
+  background: color-mix(in srgb, var(--contact-accent) 10%, var(--background) 90%);
+  text-decoration: underline;
+}
